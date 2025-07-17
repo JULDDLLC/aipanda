@@ -22,7 +22,7 @@ export function Footer() {
           
           <div className="flex items-center space-x-6 text-sm text-white/60">
             <a 
-              href="https://juldd.com" 
+              href="https://juldd.me" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
