@@ -47,7 +47,7 @@ export function AdventureVideo({ pandaName }: AdventureVideoProps) {
           {/* YouTube Video Thumbnail */}
           <div className="absolute inset-0 flex items-center justify-center">
             <img 
-              src="https://img.youtube.com/vi/USKxuArodvI/maxresdefault.jpg"
+              src="https://juldd.tsiprogram.org/wp-content/uploads/2025/07/Adventure-Awaits.png"
               alt="Adventure Video Thumbnail"
               className="w-full h-full object-cover"
             />
@@ -56,7 +56,7 @@ export function AdventureVideo({ pandaName }: AdventureVideoProps) {
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              onClick={handleWatchVideo}
+              onClick={handleWatchVideo}g
               className="absolute flex items-center justify-center w-20 h-20 bg-red-600/90 backdrop-blur-md rounded-full border-2 border-white/30 hover:bg-red-500/90 transition-all duration-300 shadow-2xl"
             >
               <Play className="w-8 h-8 text-white ml-1" />
