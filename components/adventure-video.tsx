@@ -56,7 +56,7 @@ export function AdventureVideo({ pandaName }: AdventureVideoProps) {
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              onClick={handleWatchVideo}g
+              onClick={handleWatchVideo}
               className="absolute flex items-center justify-center w-20 h-20 bg-red-600/90 backdrop-blur-md rounded-full border-2 border-white/30 hover:bg-red-500/90 transition-all duration-300 shadow-2xl"
             >
               <Play className="w-8 h-8 text-white ml-1" />
